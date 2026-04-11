@@ -1,6 +1,5 @@
 version: STSv1
-mode: testing
-mx: route1.mx.cloudflare.net
-mx: route2.mx.cloudflare.net
-mx: route3.mx.cloudflare.net
+mode: enforce
+mx: mail.protonmail.ch
+mx: mailsec.protonmail.ch
 max_age: 86400
